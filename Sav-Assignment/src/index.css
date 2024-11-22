@@ -1,0 +1,64 @@
+body{
+  background: linear-gradient(135deg, #1d976c, #93f9b9);
+}
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.fetch-button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+
+.item-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  cursor: move;
+  /* text-align: justify; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* width: 200px; */
+}
+.item-card h3{
+  font-size: 16px;
+  font-weight: lighter;
+}
+.item-card span{
+  font-size: 12px;
+  
+}
+.item-card p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.item-card img{
+  width: 150px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
